@@ -3,7 +3,7 @@
 
   In principle the produced piapp.app is standalone and ready for execution and distribution.
  It should work with the X11/Motif version and also with the wxWidget version, but the wxWidget
- version should be prefered since straight over Cocoa.
+ version should be prefered since it is straight over Cocoa.
  
   To build and run :
     macOS> cd <path>/ProjectPI/BuildMgr
