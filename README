@@ -1,0 +1,22 @@
+
+  To build a macOS piapp.app packing.
+
+  In principle the produced piapp.app is standalone and ready for execution and distribution.
+ It should work with the X11/Motif version and also with the wxWidget version, but the wxWidget
+ version should be prefered since straight over Cocoa.
+ 
+  To build and run :
+    macOS> cd <path>/ProjectPI/BuildMgr
+    macOS> <build piapp>  # preferably the wxWidget version.
+    macOS> cd macOS_app
+    macOS> ./build
+    macOS> open piapp.app
+
+  To distribute, for example :
+    macOS> zip -qr piapp.app.zip piapp.app
+    macOS> <distribute piapp.app.zip>
+  on a target machine :
+    macOS> <get piapp.app.zip>
+    macOS> unzip -q piapp.app.zip
+    macOS> open piapp.app
+    
